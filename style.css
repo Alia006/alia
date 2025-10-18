@@ -191,3 +191,27 @@ main section{
 .resume .span1{
     color:blueviolet;
 }
+.resume-download-cv{
+    margin: 20px;
+}
+/* footer style */
+footer{
+    padding: 90px 120px;
+    display:flex;
+    gap:40px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 27px;
+    border-radius: 8px;
+    background:white;
+    display: block;
+    width:100%;
+    padding:13px;
+    font-size: 18px;
+    border: none;
+    margin-bottom:15px;
+
+}
